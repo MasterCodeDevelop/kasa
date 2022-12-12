@@ -16,7 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "scss": "sass --watch src/assets/scss/index.scss:src/assets/css/styles.css"
+    "scss": "sass --watch src/assets/scss/index.scss:src/assets/css/styles.css",
+    "lint": "eslint --fix",
+    "pretty": "prettier --write ."
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +37,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.1"
   }
 }
