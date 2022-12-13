@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
 import ErrorPage from './pages/ErrorPage';
 import Layout from './pages/Layout';
+import About from './pages/About';
+import Location from './pages/Location';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
@@ -15,6 +17,8 @@ root.render(
 
 					<Route index element={<Home />} />
 					<Route path="/test" element={<Home />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/location" element={<Location />} />
 					<Route path="*" element={<ErrorPage />} />
 				</Route>
 			</Routes>
