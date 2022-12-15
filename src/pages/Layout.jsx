@@ -1,23 +1,19 @@
 import React from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, Link, useLocation } from 'react-router-dom';
+import logo from '../assets/icons/logo.svg';
 
 function Header() {
+	let {pathname} = useLocation();
 	return(
-		<header>
-			Header
-			<nav>
+		<header className='header'>
+			<img src={logo}  className='header-logo' alt="kasa logo" />
+			<nav className='header-nav'>
 				<ul>
-					<li>
-						<Link to="/">Home</Link>
+					<li className={pathname == '/'?'active':''}>
+						<Link to="/">Accueil</Link>
 					</li>
-					<li>
-						<Link to="/Page-404">Page 404</Link>
-					</li>
-					<li>
-						<Link to="/about">About</Link>
-					</li>
-					<li>
-						<Link to="/location">location</Link>
+					<li className={pathname == '/about'?'active':''}>
+						<Link to="/about">A Propos</Link>
 					</li>
 				</ul>
 			</nav>

@@ -1,0 +1,19 @@
+/*====================== reset ======================*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 100px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* FOR SMALL SCREEN */
+@media screen and (max-width:$max-width-mobile) {
+    body {
+        margin: 0 20px;
+    }
+}
