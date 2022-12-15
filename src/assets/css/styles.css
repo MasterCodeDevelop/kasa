@@ -19,13 +19,14 @@ a {
 }
 
 /* FOR SMALL SCREEN */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   body {
     margin: 0 20px;
   }
 }
 /*|||||||||||||||||||||| PAGES ||||||||||||||||||||||*/
 /*====================== layout ======================*/
+/* HEADER */
 .header {
   display: flex;
   justify-content: space-between;
@@ -53,8 +54,27 @@ a {
   text-decoration: underline;
 }
 
+/* FOOTER */
+.footer {
+  height: 209px;
+  background-color: #000;
+  margin: 0 -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 28.56px;
+}
+.footer-logo {
+  height: 39.44px;
+}
+.footer-text {
+  font-size: 24px;
+  color: #fff;
+}
+
 /* FOR SMALL SCREEN */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .header {
     height: 47px;
     margin-top: 20px;
@@ -66,6 +86,12 @@ a {
     gap: 10px;
   }
   .header-nav li {
+    font-size: 12px;
+  }
+  .footer {
+    margin: 0 -20px;
+  }
+  .footer-text {
     font-size: 12px;
   }
 }

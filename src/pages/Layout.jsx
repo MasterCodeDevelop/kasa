@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet, Link, useLocation } from 'react-router-dom';
 import logo from '../assets/icons/logo.svg';
+import logoWhite from '../assets/icons/logo-white.svg';
 
 function Header() {
 	let {pathname} = useLocation();
@@ -22,8 +23,9 @@ function Header() {
 }
 function Footer() {
 	return (
-		<footer>
-			Footer
+		<footer className='footer'>
+			<img src={logoWhite}  className='footer-logo' alt="kasa logo" />
+			<p className='footer-text'>© 2020 Kasa. All rights reserved</p>
 		</footer>
 	);
 }

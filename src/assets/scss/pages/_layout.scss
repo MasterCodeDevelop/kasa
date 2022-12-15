@@ -1,4 +1,5 @@
 /*====================== layout ======================*/
+/* HEADER */
 .header {
     display: flex;
     justify-content: space-between;
@@ -27,6 +28,24 @@
         }
     }
 }
+/* FOOTER */
+.footer {
+    height: 209px;
+    background-color: #000;
+    margin: 0 -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 28.56px;
+    &-logo {
+        height: 39.44px
+    }
+    &-text {
+        font-size: 24px;
+        color: #fff;
+    }
+}
 /* FOR SMALL SCREEN */
 @media screen and (max-width: $max-width-mobile) {
     .header {
@@ -42,6 +61,12 @@
             li {
                 font-size: 12px;
             }
+        }
+    }
+    .footer {
+        margin: 0 -20px;
+        &-text {
+            font-size: 12px;
         }
     }
 }
