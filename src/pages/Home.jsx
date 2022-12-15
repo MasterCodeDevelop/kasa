@@ -1,6 +1,8 @@
 /* eslint-disable no-undef */
 import React, { Component } from 'react';
 import { getAll } from '../functions/api';
+import Gallery from '../components/Gallery';
+
 class Home extends Component {
 	constructor() {
 		super();
@@ -22,10 +24,9 @@ class Home extends Component {
 		getAll($then, $catch);
 	}
 	render() {
-		console.log(this.state);
 		return(
 			<section className="home">
-				Home
+				<Gallery data={this.state.data} />
 			</section>
 		);
 	}
