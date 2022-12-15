@@ -14,13 +14,11 @@ root.render(
 		<Router>
 			<Routes>
 				<Route path="/" element={<Layout />}>
-
 					<Route index element={<Home />} />
-					<Route path="/test" element={<Home />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/location" element={<Location />} />
-					<Route path="*" element={<ErrorPage />} />
 				</Route>
+				<Route path="*" element={<ErrorPage />} />
 			</Routes>
 		</Router>
 	</React.StrictMode>

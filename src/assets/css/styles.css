@@ -95,5 +95,49 @@ a {
     font-size: 12px;
   }
 }
+/*====================== error page ======================*/
+.error-page {
+  color: #FF6060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 169px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+.error-page h1 {
+  font-weight: 700;
+  font-size: 288px;
+  gap: 66px;
+}
+.error-page p {
+  font-size: 36px;
+  text-align: center;
+}
+.error-page a {
+  font-size: 18px;
+  margin-top: 116px;
+  text-decoration: underline;
+}
+
+/* FOR SMALL SCREEN */
+@media screen and (max-width: 650px) {
+  .error-page {
+    margin-top: 195px;
+    gap: 11px;
+  }
+  .error-page h1 {
+    font-size: 96px;
+  }
+  .error-page p {
+    font-size: 18px;
+  }
+  .error-page a {
+    margin-top: 122px;
+    font-size: 14px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

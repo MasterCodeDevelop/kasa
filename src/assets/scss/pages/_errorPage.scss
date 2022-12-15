@@ -1,0 +1,44 @@
+/*====================== error page ======================*/
+.error-page {
+    color: $clr-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 169px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    h1 {
+        font-weight: 700;
+        font-size: 288px;
+        gap: 66px;
+    }
+    p {
+        font-size: 36px;
+        text-align: center;
+    }
+    a {
+        font-size: 18px;
+        margin-top: 116px;
+        text-decoration: underline;
+    }
+}
+
+/* FOR SMALL SCREEN */
+@media screen and (max-width: $max-width-mobile) {
+    .error-page {
+        margin-top: 195px;
+        gap: 11px;
+        h1 {
+            font-size: 96px;
+        }
+        p {
+            font-size: 18px;
+        }
+        a {
+            margin-top: 122px;
+            font-size: 14px;
+        }
+    }
+}
