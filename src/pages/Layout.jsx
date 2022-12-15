@@ -3,7 +3,7 @@ import { Outlet, Link, useLocation } from 'react-router-dom';
 import logo from '../assets/icons/logo.svg';
 import logoWhite from '../assets/icons/logo-white.svg';
 
-function Header() {
+export function Header() {
 	let {pathname} = useLocation();
 	return(
 		<header className='header'>
