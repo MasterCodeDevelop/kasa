@@ -1,7 +1,9 @@
 import React from 'react';
-
+import BannerAbout from '../components/BannerAbout';
 export default function About() {
 	return (
-		<div>About</div>
+		<div className="about">
+			<BannerAbout />
+		</div>
 	);
 }

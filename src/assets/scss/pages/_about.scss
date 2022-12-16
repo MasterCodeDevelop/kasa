@@ -1,0 +1,10 @@
+/*====================== about ======================*/
+.about {
+    margin: 44px 0;
+}
+/* FOR SMALL SCREEN */
+@media screen and (max-width: $max-width-mobile) {
+    .about {
+        margin: 17px 0;
+    }
+}
