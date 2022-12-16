@@ -30,7 +30,6 @@ a {
   position: relative;
   width: 100%;
   height: 223px;
-  margin-top: 63px;
   border-radius: 25px;
 }
 .banner img {
@@ -61,7 +60,6 @@ a {
   .banner {
     height: 111px;
     border-radius: 10px;
-    margin-top: 16px;
   }
   .banner h1 {
     font-size: 24px;
@@ -249,10 +247,18 @@ a {
   }
 }
 /*====================== home ======================*/
+/* FOR BIG SCREEN */
 @media screen and (min-width: 650px) {
   .home {
     display: grid;
     gap: 43px;
+    margin: 63px 0;
+  }
+}
+/* FOR SMALL SCREEN */
+@media screen and (max-width: 650px) {
+  .home {
+    margin: 16px 0;
   }
 }
 
