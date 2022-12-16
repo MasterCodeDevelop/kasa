@@ -108,6 +108,13 @@ a {
   font-size: 18px;
 }
 
+/* FOR  BIG SCREEN */
+@media screen and (min-width: 650px) {
+  .gallery {
+    background-color: #F6F6F6;
+    border-radius: 25px;
+  }
+}
 /* FOR SMALL SCREEN */
 @media screen and (max-width: 650px) {
   .gallery {
@@ -232,6 +239,13 @@ a {
   .error-page a {
     margin-top: 122px;
     font-size: 14px;
+  }
+}
+/*====================== home ======================*/
+@media screen and (min-width: 650px) {
+  .home {
+    display: grid;
+    gap: 43px;
   }
 }
 

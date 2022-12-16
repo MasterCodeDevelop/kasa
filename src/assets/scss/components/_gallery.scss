@@ -35,6 +35,14 @@
         font-size: 18px;
     }
 }
+
+/* FOR  BIG SCREEN */
+@media screen and (min-width: $max-width-mobile) {
+    .gallery {
+        background-color: #F6F6F6;
+        border-radius: 25px;
+    }
+}
 /* FOR SMALL SCREEN */
 @media screen and (max-width: $max-width-mobile) {
     .gallery {
