@@ -5,6 +5,12 @@
 @import './base/typography';
 @import './base/reset';
 
+/*|||||||||||||||||||||| COMPONENTS ||||||||||||||||||||||*/
+@import './components/banner';
+@import './components/gallery';
+@import './components/loading';
+
 /*|||||||||||||||||||||| PAGES ||||||||||||||||||||||*/
 @import './pages/layout';
 @import './pages/errorPage';
+@import './pages/home';
