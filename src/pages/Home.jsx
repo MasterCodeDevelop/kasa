@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 import React, { Component } from 'react';
 import { getAll } from '../functions/api';
+import Banner from '../components/Banner';
 import Gallery from '../components/Gallery';
 
 class Home extends Component {
@@ -26,6 +27,7 @@ class Home extends Component {
 	render() {
 		return(
 			<section className="home">
+				<Banner/>
 				<Gallery data={this.state.data} />
 			</section>
 		);
