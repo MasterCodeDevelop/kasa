@@ -7,9 +7,9 @@ export default function Banner() {
 		<figure className="banner banner-home">
 			<picture>
 				<source
-					media="(max-width: 650px)"
+					media="(max-width: 768px)"
 					srcSet={bannerImgMobile}
-					sizes="650px"
+					sizes="768px"
 				/>
 				<img src={bannerImg} alt="Photo de la bannière"/>
 			</picture>

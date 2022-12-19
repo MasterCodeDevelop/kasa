@@ -25,7 +25,7 @@ export default function About() {
 		<section className="about">
 			<BannerAbout />
 			<div className="about-container">
-				{ DATA.map(({title, content}, index) => <Dropdown title={title} content={content} index={index} />) }
+				<Dropdown data={DATA}/>
 			</div>
 		</section>
 	);
