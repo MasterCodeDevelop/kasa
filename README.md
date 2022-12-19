@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Kasa [P9] : Développez une application Web avec React et React Router
+> Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.
+> Ma mission développer leur nouvelle plateforme web.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Exemple image de la page: 'Kasa'](https://github.com/MasterCodeDevelop/MohamedAliElhamech_P9_14112022/blob/master/project/screen.png?raw=true)
+Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté Back-end, et React côté Front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance. Un gros chantier pour cette année !
 
-## Available Scripts
 
-In the project directory, you can run:
+## 📖 Cahier des charges
+* Créer l'application avec ReactJS.
+* Suivre la maquette
+* L'application doit être responsive
+* Suivre et respécter les élments fournis ci-dessous.
 
-### `npm start`
+## 📦 Éléments fournis pour le projet
+- Le [guide des étapes clés](https://github.com/MasterCodeDevelop/MohamedAliElhamech_P9_14112022/tree/master/project/guide-etapes-cles.pdf).
+- Le fichier [JSON](https://github.com/MasterCodeDevelop/MohamedAliElhamech_P9_14112022/tree/master/project/data.json) qui permet de gagner du temps puisque le backend n'est pas encore prêt.
+- [ Les Outils et contraintes techniques](https://github.com/MasterCodeDevelop/MohamedAliElhamech_P9_14112022/tree/master/project/coding-guidelines-kasa-fr.pdf).
+- [Les maquettes](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design?node-id=4%3A1) sur Figma.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Comment lancer l'application en local ?
+### étape 1 - Préréquis :
+- Installer nodeJS et npm [voir](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- Cloner ce repo: `https://github.com/MasterCodeDevelop/MohamedAliElhamech_P11_12122022`.
 
-### `npm test`
+### étape 2 - Lancer le frontend :
+- Ouvrir votre terminal
+- Aller dans le dossier que vous avez cloner
+- Lancer l'application avec la commande: ` npm start`.
+- Ouvrir [http://localhost:3000](http://localhost:3000) pour voir l'application dans votre navigateur.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📚 Technologie utilisées
+- [NPM](https://www.npmjs.com)
+- JavaScript
+- HTML
+- [React](https://fr.reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- CSS [SCSS](https://sass-lang.com)
+- GIT ([GitHub](https://github.com/))
+- Editeur de code source: [VSC: Visual Studio Code](https://code.visualstudio.com/).
