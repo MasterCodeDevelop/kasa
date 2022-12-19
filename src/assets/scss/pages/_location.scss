@@ -81,6 +81,16 @@
         &-info {
             gap: 10px;
             flex-direction: column;
+            h1 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        &-info__tags span{
+            font-size: 10px;
+            padding: 4px 30px;
         }
         &-info__host {
             flex-direction: row-reverse !important;
