@@ -1,0 +1,121 @@
+/*====================== location ======================*/
+.location {
+    display: grid;
+    margin: 20px 0;
+    gap: 30px;
+    &-container {
+        display: grid;
+        gap: 24px;
+    }
+    &-info {
+        display: flex;
+        justify-content: space-between;
+        color: $clr-primary;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        & > div {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        h1 {
+            font-size: 36px;   
+        }
+        p {
+            font-size: 18px;
+        }
+        &__host--user {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            h2 {
+                font-size: 18px;
+            }
+            img{
+                width: 64px;
+                height: 64px;
+                border-radius: 50%;
+            }
+        }
+        &__host--rate {
+            display: flex;
+            gap: 10px;
+            img {
+                width: 30px;
+                height: 30px;
+                transition: transform 0.2s;
+                cursor: pointer;
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+        &__tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            span {
+                padding: 4px 40px;
+                color: #fff;
+                background-color: $clr-primary;
+                font-size: 14px;
+                border-radius: 10px;
+            }
+        }
+        &__footer {
+            display: flex;
+            gap: 96px;
+            div {
+                flex: 1;
+            }
+        }
+    }
+}
+/* FOR SMALL SCREEN */
+@media screen and (max-width: $max-width-mobile) {
+    .location {
+        margin: 27px 0;
+        gap: 15px;
+        &-info {
+            gap: 10px;
+            flex-direction: column;
+            h1 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        &-info__tags span{
+            font-size: 10px;
+            padding: 4px 30px;
+        }
+        &-info__host {
+            flex-direction: row-reverse !important;
+            align-items: center;
+            &--user {
+                h2 {
+                    font-size: 12px;
+                }
+                img {
+                    width: 32px;
+                    height: 32px;
+                }
+            }
+            &--rate {
+                flex: 1;
+                gap: 5px;
+                img {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+        &-info__footer {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}

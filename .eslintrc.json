@@ -5,8 +5,7 @@
     },
     "extends": [
         "react-app",
-        "eslint:recommended",
-        "plugin:react/recommended"
+        "eslint:recommended"
     ],
     "plugins": ["react", "jsx-a11y"]
 }

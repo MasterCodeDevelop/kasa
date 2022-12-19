@@ -1,13 +1,14 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
 
-export default function Dropdown(props) {
-	const { id, title, content } = props.data;
+export default function Dropdown({ title, content, index}) {
+	console.log()
 	return (
-		<div className="dropdown">
-			<input type="checkbox" id={'dropdown-'+id} ></input>
-			<label htmlFor={'dropdown-'+id}>{title}</label>
-			<p>{content}</p>
+		<div className="dropdown" key={index}>
+			<input type="checkbox" id={'dropdown-'+index} ></input>
+			<label htmlFor={'dropdown-'+index}>{title}</label>
+			<p>{!Array.isArray(content)?content:
+				content.map(e => <>{e}<br/></>)
+			}</p>
 		</div>
 	);
 }
