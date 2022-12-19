@@ -18,9 +18,7 @@ function Description({data}) {
 		}
 	];
 
-	return (
-		newData.map(({title, content}, index) => <Dropdown title={title} content={content} index={index} />)
-	)
+	return <Dropdown data={newData} />
 }
 
 export default function Location(props) {  
@@ -56,7 +54,7 @@ export default function Location(props) {
 						<h1>{data.title}</h1>
 						<p>{data.location}</p>
 						<div className="location-info__tags">
-							{data.tags.map(tag => <span>{tag}</span>)}
+							{data.tags.map((tag,index) => <span key={index}>{tag}</span>)}
 						</div>
 					</div>
 					<div className="location-info__host">

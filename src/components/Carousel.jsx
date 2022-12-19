@@ -14,7 +14,7 @@ export default function Carousel({data}) {
 
     return (
         <div className="carousel">
-            <button className="arrow-previous" onClick={previousHash}><span className="arrow"></span></button>
+            {maxLength===0?<></>:<button className="arrow-previous" onClick={previousHash}><span className="arrow"></span></button>}
             <ol className="carousel-container">
                 {data.pictures.map( (e, index) => 
                     <li key={index} className="carousel-slide" tabIndex={0} id={'carousel-slide-'+index}>
@@ -22,7 +22,7 @@ export default function Carousel({data}) {
                     </li>    
                 )}
             </ol>
-            <button className='arrow-next' onClick={nextHash}><span className="arrow"></span></button>
+            {maxLength===0?<></>:<button className='arrow-next' onClick={nextHash}><span className="arrow"></span></button>}
         </div>
     )
 }
