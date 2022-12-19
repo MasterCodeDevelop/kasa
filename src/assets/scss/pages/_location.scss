@@ -1,0 +1,12 @@
+/*====================== location ======================*/
+.location {
+    margin: 20px 0;
+    gap: 30px;
+}
+/* FOR SMALL SCREEN */
+@media screen and (max-width: $max-width-mobile) {
+    .location {
+        margin: 27px 0;
+        gap: 15px;
+    }
+}

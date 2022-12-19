@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getById } from '../functions/api';
 import { useParams } from 'react-router-dom';
 import Loading from '../components/Loading';
+import Carousel from '../components/Carousel';
 export default function Location(props) {  
 	const params = useParams(),
 	[data, setData] = useState([]),
@@ -10,7 +11,7 @@ export default function Location(props) {
 	$then = res => {
 		if (res.length !== 1) window.location.pathname='./error-404';
 		else {
-			setData(res);
+			setData(res[0]);
 			setLoading(false)
 		}
 	},
@@ -24,10 +25,10 @@ export default function Location(props) {
 			getById(params.id,$then, $catch);
 		}
 	}, [error, params])
-	console.log(data);
 	return (
-		<>
+		<section className="location">
 			<Loading loading={loading}/>
-		</>
+			{data.length===0?<></>:<Carousel data = {data} />}
+		</section>
 	);
 }
