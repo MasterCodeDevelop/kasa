@@ -9,19 +9,17 @@ import Note from '../components/Note';
 function Description({data}) {
 	const newData = [
 		{
-			id: 1,
 			title: "Description",
 			content: data.description
 		},
 		{
-			id: 2,
 			title: "Equipements",
 			content: data.equipments
 		}
 	];
 
 	return (
-		newData.map(e => <Dropdown data={e} />)
+		newData.map(({title, content}, index) => <Dropdown title={title} content={content} index={index} />)
 	)
 }
 
