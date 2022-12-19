@@ -2,6 +2,7 @@
   "name": "master",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mastercodedevelop.github.io/MohamedAliElhamech_P11_12122022",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,7 +20,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --fix",
-    "pretty": "prettier --write ."
+    "pretty": "prettier --write .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
