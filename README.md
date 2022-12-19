@@ -2,7 +2,7 @@
 > Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.
 > Ma mission développer leur nouvelle plateforme web.
 
-![Exemple image de la page: 'Kasa'](https://github.com/MasterCodeDevelop/MohamedAliElhamech_P11_12122022/blob/master/project/screen.png?raw=true)
+![Exemple image de la page: 'Kasa'](https://github.com/MasterCodeDevelop/MohamedAliElhamech_P9_14112022/blob/master/project/screen.png?raw=true)
 Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté Back-end, et React côté Front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance. Un gros chantier pour cette année !
 
 
@@ -13,9 +13,9 @@ Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec u
 * Suivre et respécter les élments fournis ci-dessous.
 
 ## 📦 Éléments fournis pour le projet
-- Le [guide des étapes clés](https://github.com/MasterCodeDevelop/MohamedAliElhamech_P11_12122022/tree/master/project/guide-etapes-cles.pdf).
-- Le fichier [JSON](https://github.com/MasterCodeDevelop/MohamedAliElhamech_P11_12122022/tree/master/project/data.json) qui permet de gagner du temps puisque le backend n'est pas encore prêt.
-- [ Les Outils et contraintes techniques](https://github.com/MasterCodeDevelop/MohamedAliElhamech_P11_12122022/tree/master/project/coding-guidelines-kasa-fr.pdf).
+- Le [guide des étapes clés](https://github.com/MasterCodeDevelop/MohamedAliElhamech_P9_14112022/tree/master/project/guide-etapes-cles.pdf).
+- Le fichier [JSON](https://github.com/MasterCodeDevelop/MohamedAliElhamech_P9_14112022/tree/master/project/data.json) qui permet de gagner du temps puisque le backend n'est pas encore prêt.
+- [ Les Outils et contraintes techniques](https://github.com/MasterCodeDevelop/MohamedAliElhamech_P9_14112022/tree/master/project/coding-guidelines-kasa-fr.pdf).
 - [Les maquettes](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design?node-id=4%3A1) sur Figma.
 
 
