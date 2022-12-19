@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
 import loadingSVG from '../assets/images/loading.svg';
 export default function Loading({loading}) {

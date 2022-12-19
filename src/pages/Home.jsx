@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import React, { Component } from 'react';
 import { getAll } from '../functions/api';
 import Banner from '../components/Banner';
