@@ -22,6 +22,7 @@ export default function Carousel({data}) {
                     </li>    
                 )}
             </ol>
+            <span className='counter'>{Number(window.location.hash.substring(16))+1}/{data.pictures.length}</span>
             {maxLength===0?<></>:<button className='arrow-next' onClick={nextHash}><span className="arrow"></span></button>}
         </div>
     )

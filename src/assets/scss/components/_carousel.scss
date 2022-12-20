@@ -10,7 +10,6 @@
         height: 100%;
         display: flex;
         overflow-x: scroll;
-        scroll-behavior: smooth;
         scroll-snap-type: x mandatory;
         overflow: hidden;
         border-radius: 25px;
@@ -67,6 +66,13 @@
             }
         }
     }
+    .counter {
+        position: absolute;
+        left: 50%;
+        bottom: 24.92px;
+        font-size: 18px;
+        color: #fff;
+    }
 }
 
 /* FOR SMALL SCREEN */
@@ -77,6 +83,9 @@
             width: 20px;
             height: 20px;
             border-width: 3px;
+        }
+        .counter {
+            display: none;
         }
     }
 }

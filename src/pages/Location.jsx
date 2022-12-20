@@ -60,7 +60,7 @@ export default function Location(props) {
 					<div className="location-info__host">
 						<div className="location-info__host--user">
 							<h2>{data.host.name}</h2>
-							<img src={data.host.picture} alt="" />
+							<img src={data.host.picture} alt={data.host.name} />
 						</div>
 						<div className="location-info__host--rate">
 							<Note note={Number(data.rating)}/>

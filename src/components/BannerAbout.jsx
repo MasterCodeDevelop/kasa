@@ -11,7 +11,7 @@ export default function BannerAbout() {
 					srcSet={bannerImgMobile}
 					sizes="768px"
 				/>
-				<img src={bannerImg} alt="Photo de la bannière"/>
+				<img src={bannerImg} alt="bannière about"/>
 			</picture>
 		</figure>
 	);
