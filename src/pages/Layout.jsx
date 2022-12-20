@@ -10,10 +10,10 @@ export function Header() {
 			<img src={logo}  className='header-logo' alt="kasa logo" />
 			<nav className='header-nav'>
 				<ul>
-					<li className={pathname == '/'?'active':''}>
+					<li className={pathname === '/'?'active':''}>
 						<Link to="/">Accueil</Link>
 					</li>
-					<li className={pathname == '/about'?'active':''}>
+					<li className={pathname === '/about'?'active':''}>
 						<Link to="/about">A Propos</Link>
 					</li>
 				</ul>
