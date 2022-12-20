@@ -11,7 +11,7 @@ export default function Banner() {
 					srcSet={bannerImgMobile}
 					sizes="768px"
 				/>
-				<img src={bannerImg} alt="Photo de la bannière"/>
+				<img src={bannerImg} alt="bannière"/>
 			</picture>
 			<h1>Chez vous, partout et ailleurs</h1>
 		</figure>
