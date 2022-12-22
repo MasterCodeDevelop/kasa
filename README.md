@@ -27,6 +27,7 @@ Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec u
 ### étape 2 - Lancer le frontend :
 - Ouvrir votre terminal
 - Aller dans le dossier que vous avez cloner
+- Installer les packages de node_modules avec la commande: ` npm install` ou ` npm i`.
 - Lancer l'application avec la commande: ` npm start`.
 - Ouvrir [http://localhost:3000](http://localhost:3000) pour voir l'application dans votre navigateur.
 
