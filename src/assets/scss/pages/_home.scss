@@ -1,15 +1,15 @@
 /*====================== home ======================*/
 /* FOR BIG SCREEN */
 @media screen and (min-width: $max-width-mobile) {
-    .home {
-        display: grid;
-        gap: 43px;
-        margin: 63px 0;
-    }
+  .home {
+    display: grid;
+    gap: 43px;
+    margin: 63px 0;
+  }
 }
 /* FOR SMALL SCREEN */
 @media screen and (max-width: $max-width-mobile) {
-    .home {
-        margin: 16px 0; 
-    }
+  .home {
+    margin: 16px 0;
+  }
 }

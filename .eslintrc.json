@@ -1,11 +1,23 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
-    },
-    "extends": [
-        "react-app",
-        "eslint:recommended"
-    ],
-    "plugins": ["react", "jsx-a11y"]
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended"
+  ],
+  "ignorePatterns": ["dist", ".eslintrc.cjs"],
+  "plugins": ["react", "jsx-a11y", "react-refresh"],
+  "settings": { "react": { "version": "18.2" } },
+  "rules": {
+    "react-refresh/only-export-components": [
+      "warn",
+      { "allowConstantExport": true }
+    ]
+  }
 }

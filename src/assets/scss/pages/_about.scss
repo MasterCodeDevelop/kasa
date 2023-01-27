@@ -1,20 +1,20 @@
 /*====================== about ======================*/
 .about {
+  display: grid;
+  gap: 31px;
+  margin: 44px 0;
+  &-container {
     display: grid;
-    gap: 31px;
-    margin: 44px 0;
-    &-container {
-        display: grid;
-        gap: inherit;
-        margin: 0 108px;
-    }
+    gap: inherit;
+    margin: 0 108px;
+  }
 }
 /* FOR SMALL SCREEN */
 @media screen and (max-width: $max-width-mobile) {
-    .about {
-        margin: 17px 0;
-        &-container {
-            margin: 0;
-        }
+  .about {
+    margin: 17px 0;
+    &-container {
+      margin: 0;
     }
+  }
 }

@@ -1,6 +1,6 @@
 {
   "short_name": "Kasa",
-  "name": "Kasa",
+  "name": "Kasa - Location d'Appartements",
   "icons": [
     {
       "src": "favicon.png",
@@ -18,8 +18,10 @@
       "sizes": "512x588"
     }
   ],
-  "start_url": ".",
+  "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "description": "Kasa redéfinit la location d'appartements en France avec sa nouvelle plateforme. Notre site facilite des connexions transparentes entre locataires et propriétaires. Découvrez, en quelques clics, des logements authentiques et préparez votre prochain séjour avec aisance. Rejoignez l'ère Kasa, où chaque location est une expérience remarquable.",
+  "lang": "fr"
 }

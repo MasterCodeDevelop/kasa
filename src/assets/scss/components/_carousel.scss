@@ -1,91 +1,91 @@
 /*====================== carousel ======================*/
 .carousel {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 415px;
+  &-container {
     position: relative;
-    display: flex;
     width: 100%;
-    height: 415px;
-    &-container {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-        overflow: hidden;
-        border-radius: 25px;
-    }
+    height: 100%;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    overflow: hidden;
+    border-radius: 25px;
+  }
 
-    &-slide {
-        list-style: none;
-        flex: 0 0 100%;
-        width: 100%;
-        height: 100%;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+  &-slide {
+    list-style: none;
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
-    button {
-        position: absolute;
-        z-index: 1;
-        display: flex;
-        align-items: center;
-        top:unset;
-        width: 80px;
-        height: 100%;
-        background-color: transparent;
-        border: 0;
-        cursor: pointer;
+  }
+  button {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    top: unset;
+    width: 80px;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  .arrow {
+    position: relative;
+    border: 6px solid #fff;
+    background-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    width: 40px;
+    height: 40px;
+    &:active {
+      background-color: transparent;
     }
-    .arrow {
-        position: relative;
-        border: 6px solid #fff;
-        background-color: transparent;
-        border-top-color: transparent;
-        border-right-color: transparent;
-        width: 40px;
-        height: 40px;
-        &:active {
-            background-color: transparent;
-        }
-        &-previous {
-            justify-content: flex-start;
-            left: 0;
-            span {
-                left: 23.36px;
-                transform: rotate(45deg);
-            }
-        }
-        &-next {
-            justify-content: flex-end;
-            right: 0;
-            span {
-                right: 23.36px;
-                transform: rotate(-135deg);
-            }
-        }
+    &-previous {
+      justify-content: flex-start;
+      left: 0;
+      span {
+        left: 23.36px;
+        transform: rotate(45deg);
+      }
     }
-    .counter {
-        position: absolute;
-        left: 50%;
-        bottom: 24.92px;
-        font-size: 18px;
-        color: #fff;
+    &-next {
+      justify-content: flex-end;
+      right: 0;
+      span {
+        right: 23.36px;
+        transform: rotate(-135deg);
+      }
     }
+  }
+  .counter {
+    position: absolute;
+    left: 50%;
+    bottom: 24.92px;
+    font-size: 18px;
+    color: #fff;
+  }
 }
 
 /* FOR SMALL SCREEN */
 @media screen and (max-width: $max-width-mobile) {
-    .carousel {
-        height: 255px;
-        .arrow {
-            width: 20px;
-            height: 20px;
-            border-width: 3px;
-        }
-        .counter {
-            display: none;
-        }
+  .carousel {
+    height: 255px;
+    .arrow {
+      width: 20px;
+      height: 20px;
+      border-width: 3px;
     }
+    .counter {
+      display: none;
+    }
+  }
 }
