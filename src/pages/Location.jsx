@@ -6,21 +6,6 @@ import Carousel from '../components/Carousel';
 import Dropdown from '../components/Dropdown';
 import Note from '../components/Note';
 
-function Description({ data }) {
-  const newData = [
-    {
-      title: 'Description',
-      content: data.description,
-    },
-    {
-      title: 'Equipements',
-      content: data.equipments,
-    },
-  ];
-
-  return <Dropdown data={newData} />;
-}
-
 export default function Location(props) {
   const params = useParams(),
     [data, setData] = useState([]),
@@ -73,7 +58,18 @@ export default function Location(props) {
           </div>
 
           <div className="location-info__footer">
-            <Description data={data} />
+            <Dropdown
+              data={[
+                {
+                  title: 'Description',
+                  content: data.description,
+                },
+                {
+                  title: 'Equipements',
+                  content: data.equipments,
+                },
+              ]}
+            />
           </div>
         </div>
       )}

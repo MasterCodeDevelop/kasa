@@ -4,7 +4,8 @@
   margin: 20px 0;
   gap: 30px;
   &-container {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 24px;
   }
   &-info {

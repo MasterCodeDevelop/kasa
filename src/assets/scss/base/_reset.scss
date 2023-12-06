@@ -3,9 +3,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 body {
   margin: 0 100px;
+}
+body,
+#root,
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 a {
   color: inherit;
